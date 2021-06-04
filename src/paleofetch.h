@@ -1,6 +1,8 @@
 /* Forward-declare our functions so users can mention them in their
  * configs at the top of the file rather than near the bottom. */
 
+#pragma once
+
 static char *get_title(),
             *get_bar(),
             *get_os(),

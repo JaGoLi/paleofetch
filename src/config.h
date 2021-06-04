@@ -1,3 +1,5 @@
+#pragma once
+
 #include "logos/arch.h"
 //define colors
 #define BLACK  "\e[1;30m"
