@@ -1,6 +1,7 @@
 #pragma once
 
-#include "logos/arch.h"
+#include "logos/@DISTRO_LOGO@.h"
+
 //define colors
 #define BLACK  "\e[1;30m"
 #define RED    "\e[1;31m"

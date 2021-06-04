@@ -15,6 +15,9 @@ include(FindPkgConfig)
 # The program itself
 add_executable(${PROJECT_NAME})
 
+# Distro logo
+set(DISTRO_LOGO "arch" CACHE STRING "The logo that will be displayed.")
+
 add_subdirectory(src) # Sources list
 
 # Shared libraries
